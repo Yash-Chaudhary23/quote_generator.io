@@ -1,0 +1,117 @@
+/*general*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato' , sans-serif;
+}
+
+body {
+ display: flex;
+ justify-content: center;
+ justify-items: center;
+ padding: 300px;
+ text-align: center;
+ background-image: url(images/img.jpg) ;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+.container{
+    width: 550px;
+    height: 450px;
+}
+
+.header{
+    font-size: 1rem;
+    color: whitesmoke;
+    background-color:#262626;
+    border: solid 2px;
+    border-color:burlywood;
+    border-radius: 7px;
+    width: 80%;
+    margin: 20px auto;
+}
+.box{
+    width:100%;
+    height: 350px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    box-shadow: 0 0 10px;
+    padding: 40px 50px;
+}
+
+.box .content{
+    line-height: 1.5;
+    font-size: 1.5rem;
+
+}
+.person{
+    padding: 10px;
+    color: red;
+}
+
+.btn-area #cbtn {
+    background-color:#262626;
+    color: white;
+    border-radius: 5px;
+    font-size: 1 rem;
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+.btn-area #cbtn:active{
+    background-color: lightblue;
+}
+@media only screen and (max-width: 890px){
+    .box{
+        width:150%;
+        height: 350px;
+        background-color: aliceblue;
+        border-radius: 15px;
+        box-shadow: 0 0 10px;
+        padding: 40px 50px;
+    }
+    .box .content{
+        line-height: 1.5;
+        font-size: 1.3rem;
+    
+    }
+    .header {
+        font-size: .8rem;
+        color: whitesmoke;
+        background-color: #262626;
+        border: solid 2px;
+        border-color: burlywood;
+        border-radius: 7px;
+        width: 150%;
+        margin: 20px auto;
+    }
+
+}
+@media only screen and (max-width: 547px){
+    .box{
+        width:150%;
+        height: 350px;
+        background-color: aliceblue;
+        border-radius: 15px;
+        box-shadow: 0 0 10px;
+        padding: 40px 50px;
+    }
+    .box .content{
+        line-height: 1.5;
+        font-size: 1.3rem;
+    
+    }
+    .header {
+        font-size: .8rem;
+        color: whitesmoke;
+        background-color: #262626;
+        border: solid 2px;
+        border-color: burlywood;
+        border-radius: 7px;
+        width: 150%;
+        margin: 20px auto;
+    }
+
+}
